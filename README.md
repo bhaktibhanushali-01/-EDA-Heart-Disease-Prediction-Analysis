@@ -81,7 +81,7 @@ disease using Exploratory Data Analysis techniques.
 <h2>📷 Project Preview</h2>
 
 <p align="center">
-<img src="https://github.com/Omkar2304/EDA-Heart_Disease_Prediction_Data-Analysis/blob/main/Heart%20Disease%20EDA.png" width="800">
+<img src="https://github.com/bhaktibhanushali-01/-EDA-Heart-Disease-Prediction-Analysis/blob/main/Heart%20Disease%20EDA.png" width="800">
 </p>
 
 <h2>📁 Repository Structure</h2>
