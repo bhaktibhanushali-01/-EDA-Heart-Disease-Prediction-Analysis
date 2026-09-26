@@ -6,120 +6,119 @@
 
 <body>
 
-<h1 align="center">👨‍💼 Tableau: HR Analytics Dashboard</h1>
+<h1 align="center">❤️ EDA: Heart Disease Prediction Data Analysis</h1>
 
 <h2>📌 Project Overview</h2>
 <p>
-This project presents an interactive <b>HR Analytics Dashboard</b> developed using Tableau.
-The dashboard provides valuable insights into workforce performance, employee demographics,
-attrition, hiring trends, job roles, salary distribution, and overall HR metrics. It enables
-HR professionals and business leaders to monitor key workforce indicators and make informed,
-data-driven decisions.
+This project presents an <b>Exploratory Data Analysis (EDA)</b> of a Heart Disease Prediction dataset
+using Python. The objective is to understand the relationship between patient health attributes and
+the likelihood of heart disease. The project involves data cleaning, statistical analysis, and
+visualization to uncover important patterns that can support healthcare professionals and predictive
+model development.
 </p>
 
 <h2>🎯 Problem Statement</h2>
 <p>
-Human Resource departments handle large volumes of employee data, making it difficult to
-identify workforce trends through manual analysis. Organizations require an interactive
-dashboard to monitor employee performance, attrition, hiring, and demographic distribution.
-This Tableau dashboard provides meaningful visualizations that help HR teams improve employee
-retention, workforce planning, and organizational performance.
+Heart disease is one of the leading causes of death worldwide. Identifying the key health factors
+associated with heart disease can help in early diagnosis and preventive healthcare. This project
+analyzes patient data to discover trends, correlations, and risk factors that contribute to heart
+disease using Exploratory Data Analysis techniques.
 </p>
 
 <h2>📂 Dataset Description</h2>
 
 <ul>
-<li>Employee ID</li>
-<li>Employee Name</li>
 <li>Age</li>
-<li>Gender</li>
-<li>Department</li>
-<li>Job Role</li>
-<li>Education</li>
-<li>Salary</li>
-<li>Years at Company</li>
-<li>Performance Rating</li>
-<li>Attrition Status</li>
-<li>Marital Status</li>
+<li>Gender (Sex)</li>
+<li>Chest Pain Type</li>
+<li>Resting Blood Pressure</li>
+<li>Cholesterol Level</li>
+<li>Fasting Blood Sugar</li>
+<li>Resting ECG Results</li>
+<li>Maximum Heart Rate Achieved</li>
+<li>Exercise-Induced Angina</li>
+<li>Oldpeak (ST Depression)</li>
+<li>ST Slope</li>
+<li>Target (Heart Disease)</li>
 </ul>
 
-<h2>📊 Dashboard Features</h2>
+<h2>📊 Analysis Performed</h2>
 
 <ul>
-<li>Employee Headcount Overview</li>
-<li>Attrition Analysis</li>
-<li>Department-wise Employee Distribution</li>
-<li>Gender Diversity Analysis</li>
-<li>Age Group Distribution</li>
-<li>Salary Analysis</li>
-<li>Job Role Performance</li>
-<li>Interactive Filters and Dashboards</li>
+<li>Data Cleaning and Preprocessing</li>
+<li>Missing Value Analysis</li>
+<li>Descriptive Statistics</li>
+<li>Univariate Analysis</li>
+<li>Bivariate Analysis</li>
+<li>Correlation Matrix</li>
+<li>Outlier Detection</li>
+<li>Feature Distribution Analysis</li>
+<li>Data Visualization</li>
 </ul>
 
 <h2>🛠 Tools & Technologies Used</h2>
 
 <ul>
-<li>Tableau Desktop</li>
-<li>Microsoft Excel / CSV Dataset</li>
-<li>Calculated Fields</li>
-<li>Parameters</li>
-<li>Filters</li>
-<li>Dashboards</li>
-<li>Data Visualization</li>
+<li>Python</li>
+<li>Pandas</li>
+<li>NumPy</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+<li>Jupyter Notebook</li>
 </ul>
 
 <h2>📈 Key Insights</h2>
 
 <ul>
-<li>Identifies departments with the highest employee attrition.</li>
-<li>Analyzes workforce distribution across departments and job roles.</li>
-<li>Provides gender and age diversity insights.</li>
-<li>Tracks employee salary distribution and experience levels.</li>
-<li>Highlights employee retention and hiring trends.</li>
-<li>Supports strategic HR planning and workforce management.</li>
+<li>Age plays an important role in heart disease risk.</li>
+<li>Chest pain type is strongly associated with heart disease diagnosis.</li>
+<li>Higher cholesterol and blood pressure levels increase health risks.</li>
+<li>Maximum heart rate varies significantly between patients.</li>
+<li>Correlation analysis identifies the most influential health features.</li>
+<li>Visualizations help understand patient health patterns effectively.</li>
 </ul>
 
-<h2>📷 Dashboard Preview</h2>
+<h2>📷 Project Preview</h2>
 
 <p align="center">
-<img src="https://github.com/Omkar2304/Tableau-HR-Analytics-Dashboard/blob/main/HR%20Analytics%20Dashboard.png" width="900">
+<img src="https://github.com/Omkar2304/EDA-Heart_Disease_Prediction_Data-Analysis/blob/main/Heart%20Disease%20EDA.png" width="800">
 </p>
 
 <h2>📁 Repository Structure</h2>
 
 <pre>
-Tableau-HR-Analytics-Dashboard
+EDA-Heart_Disease_Prediction_Data-Analysis
 │
-├── HR Analytics Dashboard.twbx
-├── HR Dataset.xlsx
-├── HR Analytics Dashboard.png
-└── README.md
+├── heart.ipynb
+├── heart.csv
+├── Heart Disease EDA.png
+├── README.md
 </pre>
 
 <h2>🚀 How to Use</h2>
 
 <ol>
 <li>Clone or download this repository.</li>
-<li>Open the <b>.twbx</b> file using Tableau Desktop or Tableau Public.</li>
-<li>Explore the interactive dashboard.</li>
-<li>Use filters to analyze employees by department, gender, age, and job role.</li>
-<li>Review HR metrics and workforce insights.</li>
+<li>Open the Jupyter Notebook file.</li>
+<li>Install the required Python libraries.</li>
+<li>Run all notebook cells sequentially.</li>
+<li>Explore the visualizations and analytical insights.</li>
 </ol>
 
 <h2>💡 Future Improvements</h2>
 
 <ul>
-<li>Add employee performance scorecards.</li>
-<li>Implement predictive attrition analysis.</li>
-<li>Integrate real-time HRMS data.</li>
-<li>Create recruitment and hiring trend dashboards.</li>
-<li>Publish the dashboard on Tableau Public for online access.</li>
+<li>Build machine learning models for heart disease prediction.</li>
+<li>Perform feature engineering to improve prediction accuracy.</li>
+<li>Create an interactive healthcare dashboard using Power BI or Streamlit.</li>
+<li>Compare classification algorithms such as Logistic Regression, Random Forest, and XGBoost.</li>
+<li>Deploy the prediction model as a web application.</li>
 </ul>
 
 <h2>👨‍💻 Author</h2>
 
 <p>
-<b>Bhakti Bhanushali</b>
+<b>Bhakti Bhanushali</b><br>
 </p>
 
 </body>
